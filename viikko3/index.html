@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>About</h1>
+    <p>Woof woof!</p>
+    <p>Hi, I'm Dog. I love <strong style="color: rgb(110, 180, 203);">User Interface Design.</strong></p>
+
+    <img src="dog.jpg"/>
+
+    <h1>Courses</h1>
+    <p>Here are some courses I've taken:</p>
+    <table>
+        <tr>
+            <th>Course Number</th>
+            <th>Course Title</th>
+            <th>Semester Taken</th>
+        </tr>
+        <tr>
+            <th colspan="3" style="text-align: center;">For Credit</th>
+        </tr>                
+        <tr>
+            <td class="courseNumberDark">6.813</td>
+            <td style="color: rgb(77, 163, 191);">User Interface Design</td>
+            <td style="color: rgb(77, 163, 191);">Spring 2014</td>
+        </tr>
+        <tr>
+            <td class="courseNumberDark">6.034</td>
+            <td>Artificial Intelligence</td>
+            <td>Fall 2013</td>
+        </tr>
+        <tr>
+            <td class="courseNumberDark">6.006</td>
+            <td>Introduction to Algorithms</td>
+            <td>Fall 2013</td>
+        </tr>
+        <tr>
+            <th colspan="3" style="text-align: center;">Listener</th>
+        </tr>
+        <tr>
+            <td class="courseNumberLight">6.867</td>
+            <td>Machine Learning</td>
+            <td>Fall 2013</td>
+        </tr>
+        <tr>
+            <td class="courseNumberLight">6.830</td>
+            <td>Database Systems</td>
+            <td>Fall 2012</td>
+        </tr>
+    </table>
+
+    <h1>Interests</h1>
+    <p>I am interested <strong>HCI</strong>, memes, and youtube videos.</p>
+
+    <h1>Submit Pet Information</h1>
+    <p>Would love to know what kind of pets you 'own' (you'll never own me). Submit below!</p>
+    <form>
+        <label for="firstname">Name:</label>
+        <input type="text" name="firstname" required />
+        <label for="phylum">Phylum:</label>
+        <input type="text" name="phylum" required />
+        <label for="gender">Gender:</label>
+        <input type="text" name="gender" required />
+        <input type="submit" value="Submit" style="grid-column: 1;" />
+    </form>
+</body>
+</html>
