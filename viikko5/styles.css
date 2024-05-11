@@ -1,0 +1,68 @@
+.myDiv {
+    width: 200px;
+    height: 200px;
+}
+
+#rounded {
+    border-radius: 3rem;
+    background-color: red;
+}
+
+#gradient {
+    background: linear-gradient(to bottom, green, blue);
+}
+
+#shadows {
+    box-shadow: 8px 8px 8px black;
+}
+
+#twoD {
+    transform: rotate(20deg);
+    background-color: red;
+    margin: 5vw;
+}
+
+#threeD {
+    transform: rotateY(120deg);
+    transition: width 2s;
+    background-color: red;
+    border-radius: 3rem;
+    border: 1px solid black;
+}
+
+#text {
+    padding: 2rem;
+}
+
+#transitions {
+    background-color: red;
+    transition: 2s;
+    color: white;
+    padding: 10px 0px 0px 10px;
+}
+
+#transitions:hover {
+    width: 400px;
+}
+
+#animations {
+    background-color: red;
+    animation: moveDiv 2s infinite alternate;
+}
+
+@keyframes moveDiv {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
+
+.container {
+    column-count: 2; 
+    column-gap: 20px; 
+    column-rule: none;
+    width: 600px; 
+    margin: 0 auto; 
+}
